@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="img/sg.png">
+</head>
+
+<style>
+    
+    body{
+        background-color: antiquewhite;;
+    }
+.btn2 {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.btn2{
+--c: white;
+color: var(--c);
+font-size: 16px;
+border: 0.3em solid rgb(6, 163, 184);
+border-radius: 0.5em;
+width: 12em;
+height: 3em;
+text-transform: uppercase;
+font-weight: bold;
+font-family: sans-serif;
+letter-spacing: 0.1em;
+text-align: center;
+line-height: 3em;
+position: relative;
+overflow: hidden;
+z-index: 1;
+transition: 0.5s;
+margin: 1em;
+}
+
+.btn2 span {
+position: absolute;
+width: 25%;
+height: 100%;
+background-color: rgb(253, 79, 181);
+transform: translateY(150%);
+border-radius: 50%;
+left: calc((var(--n) - 1) * 25%);
+transition: 0.5s;
+transition-delay: calc((var(--n) - 1) * 0.1s);
+z-index: -1;
+}
+
+.btn2:hover {
+color: black;
+}
+.btn2 a:hover{
+    color: white;
+}
+
+.btn2:hover span {
+transform: translateY(0) scale(2);
+}
+
+.btn2 span:nth-child(1) {
+--n: 1;
+}
+
+.btn2 span:nth-child(2) {
+--n: 2;
+}
+
+.btn2 span:nth-child(3) {
+--n: 3;
+}
+
+.btn2 span:nth-child(4) {
+--n: 4;
+}
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(rgb(6, 163, 184), rgb(255, 135, 205));">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/tamil1-removebg-preview.png" width="50%" height="50%"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="justify-content: flex-end; display: flex;">
+              <button class="btn btn-outline-white btn-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 25px;">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/halwa.jpg" class="card-img-top" style="width: 100%; height: 50%" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Thirunelveli- Halwa</h5>
+              <p class="card-text">The Irrttu Kadai Halwa found in Thirunelveli is one of the most famous halwas as they still make the halwa manually.</p>
+
+             <div class="btn2">
+                    <a href="three.html" style="text-decoration: none;color: rgb(6, 163, 184); font-weight: bold;">Add to Card
+                    <span></span><span></span><span></span><span></span>
+                </a>
+            </div>
+              <!-- <a href="login.html" class="btn">
+                <div class="button_content">
+                    <span class="button-text">Let's Start</span>
+                
+                <div class="button1"></div>
+                <div class="button2"></div> 
+            </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/Jigarthanda.jpg" class="card-img-top" style="width: 100%; height: 50%" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Madurai- Jigarthanda</h5>
+              <p class="card-text">igarthanda is a famous cooler that is found in many road-side shops around Tamil nadu but nothing can match up to the taste of Madurai’s own Jigarthanda. </p>
+              <div class="btn2">
+                <a href="three.html" style="text-decoration: none;color: rgb(6, 163, 184); font-weight: bold;">Add to Card
+                <span></span><span></span><span></span><span></span>
+            </a>
+        </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Palkova.jpg" class="card-img-top" style="width: 100%; height: 50%" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Srivilliputhur- Palkova</h5>
+              <p class="card-text">The Palkova is  still prepared by this old traditional method to give you the best. So now you know why this place got the specialty tag. </p>
+              <div class="btn2">
+                <a href="three.html" style="text-decoration: none;color: rgb(6, 163, 184); font-weight: bold;">Add to Card
+                <span></span><span></span><span></span><span></span>
+            </a>
+        </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/dbriyani.jpg" class="card-img-top" style="width: 100%; height: 50%" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dindigul- Thalapakatti Biriyani</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="btn2">
+                <a href="three.html" style="text-decoration: none;color: rgb(6, 163, 184); font-weight: bold;">Add to Card
+                <span></span><span></span><span></span><span></span>
+            </a>
+        </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="img/Kadalai-Mittai.jpg" class="card-img-top" style="width: 100%; height: 50%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kovilpatti- Kadalamittai
+                </h5>
+                <p class="card-text">Kovilpatti is fmaous for sweets and snacks but the uniqueens of the place lies in the kadalaimittai that is made with peanuts and honey. </p>
+                <div class="btn2">
+                    <a href="three.html" style="text-decoration: none;color: rgb(6, 163, 184); font-weight: bold;">Add to Card
+                    <span></span><span></span><span></span><span></span>
+                </a>
+            </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/MACARON_.jpg" class="card-img-top" style="width: 100%; height: 50%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Thoothukudi- Macroons</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="btn2">
+                    <a href="three.html" style="text-decoration: none;color: rgb(6, 163, 184); font-weight: bold;">Add to Card
+                    <span></span><span></span><span></span><span></span>
+                </a>
+            </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/MURUKKU.jpg" class="card-img-top" style="width: 100%; height: 50%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Manaparrai- Murukku</h5>
+                <p class="card-text"> Large varieties of Kai Murukku are found in Tamil Nadu. But Manparrai, a small town in Tiruchi takes pride in getting the tag. </p>
+                <div class="btn2">
+                    <a href="three.html" style="text-decoration: none;color: rgb(6, 163, 184); font-weight: bold;">Add to Card
+                    <span></span><span></span><span></span><span></span>
+                </a>
+            </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/tea.jpg" class="card-img-top" style="width: 100%; height: 50%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kumbakkonam-Degree Filter Coffee</h5>
+                <p class="card-text">The natural aroma of the coffee roasted coffee beans is still intact and distinct in the coffee. Made by the drip decoction method, the whole experience is itself a story worth sharing. </p>
+                <div class="btn2">
+                    <a href="three.html" style="text-decoration: none;color: rgb(6, 163, 184); font-weight: bold;">Add to Card
+                    <span></span><span></span><span></span><span></span>
+                </a>
+            </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/chettinadu.jpg" class="card-img-top" style="width: 100%; height: 50%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ambur- Biriyani</h5>
+                <p class="card-text">Ambur Biriyani grew to fame during the Nawab’s regime. The Biriynai has chicken, mutton and egg. Biriyani is famous for the taste and since then everybody loves the taste. </p>
+                <div class="btn2">
+                    <a href="three.html" style="text-decoration: none;color: rgb(6, 163, 184); font-weight: bold;">Add to Card
+                    <span></span><span></span><span></span><span></span>
+                </a>
+            </div>
+              </div>
+            </div>
+          </div>
+      </div>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
